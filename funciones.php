@@ -8,6 +8,11 @@ function suma(int $a, int $b): int {
 }
 
 
+function infinito(...$a) {
+    var_dump($a);
+}
+
+infinito('1', '2', '4');
 
 function saludo(string &$nombre, string $apellido = null): string {
     $nombre = 'otro nombre';

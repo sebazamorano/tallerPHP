@@ -1,0 +1,19 @@
+{
+    "name": "sebazamorano/taller-php",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Zamorano",
+            "email": "correo@correo.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "poo/",
+            "Can\\": "poo/Caninos/",
+            "Fel\\": "poo/Felinos/"
+        }
+    }
+}
