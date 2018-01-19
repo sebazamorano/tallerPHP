@@ -1,0 +1,2 @@
+- Realizar git clone https://github.com/sebazamorano/tallerPHP.git
+- Ir a la carpeta que se descarga por consola y ejectuar composer update
