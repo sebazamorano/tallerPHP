@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/poo/Caninos" isTestSource="false" packagePrefix="Can\" />
+      <sourceFolder url="file://$MODULE_DIR$/poo" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/poo/Felinos" isTestSource="false" packagePrefix="Fel\" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library name="PHP" type="php">
-        <CLASSES>
-          <root url="file://$APPLICATION_HOME_DIR$/bin" />
-        </CLASSES>
-        <SOURCES>
-          <root url="file://$APPLICATION_HOME_DIR$/bin" />
-        </SOURCES>
-      </library>
-    </orderEntry>
   </component>
 </module>
